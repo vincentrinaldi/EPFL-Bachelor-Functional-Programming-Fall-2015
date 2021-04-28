@@ -1,0 +1,26 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(funsets.FunSetSuite, sbt.ForkMain$SubclassFingerscan@bcab4a5, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersection contains all elements which are in both sets[0m[0m
+[0m[[0minfo[0m] [0m[32m- difference contains all elements which are in the first set but not in the second one[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter contains all elements in the set which respect the given condition[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall returns if all elements of the set satisfy the condition[0m[0m
+[0m[[0minfo[0m] [0m[32m- exists returns if at least one element of the set satisfy the given condition[0m[0m
+[0m[[0minfo[0m] [0m[32m- map contains all elements from the initial set which have been transformed by the given function[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 9 events.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 2 seconds, 6 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 9, Failed 0, Errors 0, Passed 9[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	funsets.FunSetSuite[0m

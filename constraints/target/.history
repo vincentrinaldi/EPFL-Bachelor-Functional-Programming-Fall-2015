@@ -1,0 +1,16 @@
+eclipse
+test
+//
+./target/cafesat --dimacs circuits.cnf
+exit
+test
+tets
+test
+exit
+test
+exit
+test
+exit
+test
+submit vincent.rinaldi@epfl.ch 7yHqFPGfy4
+exit

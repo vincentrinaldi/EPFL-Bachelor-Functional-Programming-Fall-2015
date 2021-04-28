@@ -1,0 +1,24 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(objsets.TweetSetSuite, sbt.ForkMain$SubclassFingerscan@4902f4c3, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mTweetSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: on empty set[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: a on set5[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter: 20 on set5[0m[0m
+[0m[[0minfo[0m] [0m[32m- union: set4c and set4d[0m[0m
+[0m[[0minfo[0m] [0m[32m- union: with empty set (1)[0m[0m
+[0m[[0minfo[0m] [0m[32m- union: with empty set (2)[0m[0m
+[0m[[0minfo[0m] [0m[32m- descending: set5[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 7 events.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 188 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 7, Failed 0, Errors 0, Passed 7[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	objsets.TweetSetSuite[0m
